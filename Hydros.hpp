@@ -5,11 +5,11 @@
 #ifndef CHUVEIRO
 #define CHUVEIRO
 
-class Chveiro{
+class Chuveiro{
     
     public:
-    Chveiro();
-    ~Chveiro();
+    Chuveiro();
+    ~Chuveiro();
 
     void setStatus(bool s);
 
@@ -77,7 +77,7 @@ class BanheiroPublico : SanitarioPublico{
     void setStatus(bool s);
     
     private:
-    Chveiro Chuveiro;
+    Chuveiro chuveiro;
 };
 
 #endif
